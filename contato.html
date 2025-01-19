@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Projeto Portfólio">
+		<meta name="author" content="Generation Brasil">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<title>Contato - Lucas</title>
+	</head>
+	<body>
+		<header>
+			<div id="header_content">
+				<div id="titulo">
+					<h1>Generation Brasil</h1>
+				</div>
+				<div id="menu">
+					<nav>
+						<ul id="menu">
+							<li>
+								<a href="index.html"> Home </a>
+							</li>
+							<li>
+								<a href="contato.html"> Contato </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="contact">
+				<form action="#" method="submit">
+					<label for="nome">Nome: </label>
+					<input
+						id="nome"
+						type="text"
+						name="name"
+						placeholder="Digite seu nome"
+						required
+					/>
+					<span id="txtNome"></span>
+
+					<label for="email">Email: </label>
+					<input
+						id="email"
+						type="email"
+						name="email"
+						placeholder="Digite seu email"
+						required
+					/>
+					<span id="txtEmail"></span>
+
+					<label for="subject">Assunto: </label>
+					<input
+						id="subject"
+						type="text"
+						name="subject"
+						placeholder="Digite o título da mensagem"
+						required
+					/>
+					<span id="txtSubject"></span>
+
+					<label for="message">Mensagem: </label>
+					<textarea
+						id="message"
+						name="message"
+						placeholder="Digite sua mensagem"
+						required
+					>
+					</textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+				<article id="mapa">
+
+					<div id="endereco">
+						<p>Rua Aurora Mendes Sabará, 263</p>
+						<p>Francisco Morato - SP</p>
+					</div>
+
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.9790453349287!2d-46.7316785!3d-23.2802111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee6de9254a717%3A0x54309c024409662c!2sR.%20Aurora%20Mendes%20Sabara%2C%20263%20-%20Jardim%20Vassouras%20II%2C%20Francisco%20Morato%20-%20SP%2C%2007950-070!5e0!3m2!1spt-BR!2sbr!4v1737320827352!5m2!1spt-BR!2sbr"
+						width="400"
+						height="250"
+						frameborder="0"
+						style="border: 0"
+						allowfullscreen=""
+						aria-hidden="false"
+						tabindex="0"
+						id="mapa"
+					>
+                    </iframe>
+
+				</article>
+			</section>
+		</main>
+		<footer>
+            <section id="redes_sociais">
+    
+                <a href="https://www.linkedin.com/in/luhens/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAMBJREFUOE/dlNENAiEQBec6sRO1ErUStRK1ErUSLUUngQSJHAc5f9yEnwNm3+5bbmDGGGZkkcJWwBJYNCZ4AkfvpLATsG0EefwGrEswM50DeIrKUdguwAQ9JiitKhO4f5dgH2tRhVmqylweNgT73ZUmGYUdgjuaoSnRJAERbJJrkqxoQAkmQKDmGLbBs13K4ujkybpgOqu6P4HZ4Ht4pzrqzMWGW2a+P9qz2pDm+19hqti0koBLHJef/c86RH1eeQEI3UoUbiEpQwAAAABJRU5ErkJggg=="/>
+                </a>
+                <a href="https://github.com/luhendev">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAARpJREFUOE+tlNERgkAMREMn2olWolaiViKdiJVoJ8pjkptcyAEf3g8Dl2w2uwmd/PF0G7B2InIQkc/4HJbiW2AAXEeAc0gGkHPJgDMwQG4bGBNz93ERDCYPbQl2rQND7ntlOcV5MC7foY2TJlkyMbDh3ccCWoHByDQ6rok9avrVwgDvIxiVrDUuTeysVeIojsucqbhv0ypVOizo5o3C3d7AqPDUxJlLDUAzi+spJwNjMKG9dprMvJNolQ5lQPcaV20SR5u2NryjXTWUChbFL0Z6A0w3QGBnW+Bj/PgY0aJx3ADbR2jDAP38iMRVq/Rt7SZOEfjSdo2Fd3BmVOuvQRIsSIClB+N7qufS/4w24xZk30qlLT/HtXkr9z+8g0QUOBbzLgAAAABJRU5ErkJggg=="/>
+                </a>
+                <a href="https://www.instagram.com/luhen.ss/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAATJJREFUOE+1lLFNBEEMRd/FFAGENEAKtEECJEiIIoAeyKEToAdyKIMM9p38TzN7uxwnHZZW2l3b3/977FmwQ1vsEIspsAPgFNgHfJ+ytyHmFfhsnWMwQV4qyMAuuBJTTN8z8BDAMdhHAZxtkH8M3JSCq2LZybwcpD0Nleakh+Ut8AhcA+cFtGTXJt5Vj6wUSwG/I+sLOALegb1it1TSgslKC1iA7gEbfjI4fbdPiZGAfd4IZv+6BleiRU2W6Z/BvivJEYh5khYRzP9bgSlHduMeHm7LzKr2LVJllb5mdGaZdY462YtqepgprZ1BwS2ydgCeik4ltGawT9u7+LsJaEcjzfX4VyvyyyZkdHIYa9OegCzx1G6KrwqfTvbc6mQbTBzfHBYQJDfHivy/32cbLox59w8a3UkU9Ao6lwAAAABJRU5ErkJggg=="/>
+                </a>
+            </section>
+            <h3>
+                Feito por Lucas Henrique - Generation Brasil
+            </h3>
+        </footer>
+	</body>
+</html>

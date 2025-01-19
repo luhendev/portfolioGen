@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteudo{
+    width: 100%;
+    background-color: aqua;
+}
+#conteudo img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top center;
+}
